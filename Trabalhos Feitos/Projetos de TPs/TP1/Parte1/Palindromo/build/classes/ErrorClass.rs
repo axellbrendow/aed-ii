@@ -1,0 +1,2 @@
+ErrorInterface
+ErrorClass

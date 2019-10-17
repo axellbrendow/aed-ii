@@ -1,0 +1,12 @@
+ErrorInterface
+some.ErrorInterface
+some.MyIO
+some.AxellIO
+MyIO
+some.ErrorClass
+AxellIO
+AlteracaoAleatoria
+some.MyString
+ErrorClass
+some.AlteracaoAleatoria
+MyString

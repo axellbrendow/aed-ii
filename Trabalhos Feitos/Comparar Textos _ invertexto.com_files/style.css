@@ -1,0 +1,267 @@
+/*728x90*/
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-font-smoothing:antialiased;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto';
+}
+#main-container {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	border: 1px solid #ccc;
+	background: #ffffff;
+	overflow: hidden;
+}
+#exit {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#feature {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+	border:0;
+}
+.animated{
+	opacity: 0;
+}
+
+#brand{
+	position: absolute;
+	left: 577px;
+	top: 58px;
+}
+#brand_2{
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+#cloud{
+	top: 34px;
+	position: absolute;
+	width: 120px;
+	left: 581px;
+	height: 21px;
+}
+
+.gsuite{
+	position: absolute;
+	bottom: 0;
+	left: 32px;
+	width: 98px;
+	height: auto;
+}
+
+#cloud2{
+	bottom: -2px;
+	position: absolute;
+	width: 120px;
+	left: 160px;
+	height: 21px;
+}
+#gsuite2{
+	left: 20px;
+}
+.text{
+	color: #414141;
+	font-size: 19px;
+	position: absolute;
+}
+#text_1{
+	text-align: left;
+	top: 33px;
+	width: 100%;
+	left: 30px;
+}
+
+.icons{
+	position: absolute;
+	bottom: 0;
+	left: 148px;
+}
+.icon_gmail{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 23px;
+	height: 18px;
+}
+.icon_documents{
+	position: absolute;
+	bottom: 0;
+	left: 33px;
+	width: 17px;
+	height: 23px;
+}
+.icon_gdrive{
+	position: absolute;
+	bottom: 0;
+	left: 58px;
+	width: 24px;
+	height: 22px;
+}
+.icon_calendar{
+	position: absolute;
+	bottom: 0;
+	left: 91px;
+	width: 21px;
+	height: 21px;
+
+}
+#animation{
+	position: relative;
+	top: 0;
+	left: 115px;
+	width: 440px;
+	height: 80px;
+}
+#perspective{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 440px;
+	height: 80px;
+	-webkit-perspective: 200px;
+	-moz-perspective: 200px;
+	-ms-perspective: 200px;
+	perspective: 200px;
+	overflow: hidden;
+	
+}
+#documents{
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 440px;
+	-webkit-transform: rotateX(60deg);
+	transform: rotateX(60deg);
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+#characters{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 440px;
+	height: 90px;
+}
+.character{
+	position: absolute;
+}
+#character_1{
+	top: 16px;
+	left: 71px;
+	width: 36px;
+}
+#character_2{
+	width: 36px;
+	top: 20px;
+	left: 200px;
+}
+#character_3{
+	left: 356px;
+	width: 20px;
+	top: 16px;
+}
+.page{
+	position: relative;
+	float: left; 
+	bottom: 0;
+	color: #999;
+	background-color: #fff;
+	padding: 7px 15px;
+	position: relative;
+	outline: 3px solid #fff;
+	height: 170px;
+	width: 140px;
+	overflow: hidden;
+	border: 2px solid #999;
+	border-top: 12px solid #333;
+	margin-right: 5px;
+}
+.paragraph{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#page_1{
+	z-index: 1;
+
+
+}
+#page_2{
+	z-index: 3;	
+
+
+	
+}
+#page_3{
+	z-index: 2;
+	
+}
+#cta{
+	font-family: 'Roboto';
+	font-size: 13px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 400;
+	background-color: #1075F4;
+	border-radius: 0;
+	width: 140px;
+	height: 36px;
+	display: block;
+	left: 363px;
+	top: 21px;
+	position: absolute;
+	cursor: pointer;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+#cta>span{
+	opacity: 0;
+	position: absolute;
+	top: -20px;
+	left: -102%;
+	width: 150px;
+	height: 96px;
+	opacity: 0;
+	transform: rotate(9deg);
+	background: rgba(255, 255, 255, 0.13);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 30%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.3) 60%,  rgba(255,255,255,0) 100%); 
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.2) 30%,rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.3) 60%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.2) 30%,rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.3) 60%, rgba(255,255,255,0) 100%); 
+}
+#main-container:hover #cta>span{
+	transition: all 350ms ease-in-out;
+	left: 110%!important;
+	opacity: 1!important;
+}
+#dots.finished{
+	transition: all 350ms ease-in-out;
+}
+#main-container:hover #dots.finished{
+	transition: all 350ms ease-in-out;
+	transform: scale(1.2) rotateZ(39deg)!important ;
+	-webkit-transform: scale(1.2) rotateZ(39deg)!important ;
+
+}
